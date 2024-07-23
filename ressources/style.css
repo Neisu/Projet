@@ -1,0 +1,170 @@
+body, html {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 6;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    background-color: black;
+}
+
+ul {
+    width: 100%;
+    display: inline-flex;
+    padding-inline-start: 0px;
+    justify-content: flex-end;
+}
+
+li {
+    display: inline-flex;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#img {
+    height: 50px;
+    padding-top: 10px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.spacer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 69px;
+    height: 700px;
+    background-image: url(./images/img-mission-background.jpg);
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.text {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+}
+
+.contain {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contain #text {
+    text-align: center;
+}
+
+.space img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.sub {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.space {
+    display: flex;
+    flex-direction: column;
+}
+
+.txtsp {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.spacex {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 500px;
+    background-image: url(./images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+}
+
+.typo {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.square {
+    display: inline-flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.word {
+    background-color: black;
+    max-width: 300px;
+    opacity: 1;
+    text-align: center;
+    margin-right: 40px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.word b {
+    font-weight: bold;
+}
+
+.er {
+    display: inline-flex;
+    max-width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.word h3 {
+    display: inline-block;
+}
+
+.pdm {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pdw {
+    width: 100%;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 960px) {
+    .spacer {
+      padding-top: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .img img {
+     display: none;
+    }
+   }
